@@ -27,13 +27,13 @@ li{
 .about{
     font-size: 80px;
     color: white;
-    position: absolute;
+    position: static;
     margin-left: 220px;
     margin-top: 100px;
 }
 .shuadivididi{
     max-width: 1700px;
-    width: 1005%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
@@ -46,19 +46,19 @@ li{
     height: 500px;
 }
 .marjvenadivi{
-    background-color: aquamarine;
+  
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
     max-width: 540px;
     width: 100%;
-    height: 460px;
 }
 .pataradivebi{
     background-color: blue;
     max-width: 260px;
     width: 100%;
-    height: 185px;   
+    height: 185px; 
+    margin-bottom: 10px;  
 }
 .qvedapatara{
     background-image:url(../images/re.jpg);
@@ -122,12 +122,14 @@ li{
 .qvedadididivi{
     background-image: url(../images/bolo.jpg);
     width: 100%;
-    height: 612px;
+    /* height: 100%; */
+    /* height: 900px; */
     margin-top: 100px;
     background-size: cover;
     display: flex;
     justify-content: space-evenly;
     position: relative;
+    background-color: aqua;
 }
 .bolopataradivi {
     display: flex;
@@ -173,7 +175,8 @@ li{
     position: absolute;
 }
 .axalidivi{
-    width: 900px;
+    max-width: 900px;
+    width: 100%;
     display: flex;
     height: 600px;
     margin: 0 auto;
@@ -186,4 +189,10 @@ li{
     color: #5863F8;
     font-size: 20px;
     margin-bottom: 15px;
+}
+.fa-bars{
+    display: none;
+    margin-right: 20px;
+    color: #FFFFFF;
+    width: 40px;
 }
