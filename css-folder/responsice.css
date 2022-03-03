@@ -10,14 +10,34 @@
     .shuadivididi{
         flex-direction: column;
     }
-    .qvedapatara{
-        width: 260px;
-    }
+ 
 }
 @media (max-width:1200px){
     .marjvenadivi {
         flex-direction: column;
         align-items: center;
+    }
+    .qvedapatara{
+        width: 260px;
+    }
+    .responsiv{
+        width: 260px;
+        text-align: center;
+    }
+    .buton{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .responsiv1{
+        display: none;
+    }
+    .macxenadivi{
+        width: 260px;
+        flex-direction: column;
+     
+    }
+    .about2{
+        text-align: center;
     }
 }
 @media (max-width:1600px){
